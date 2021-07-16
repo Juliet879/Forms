@@ -8,7 +8,7 @@ body{
     background-image: url(/images/background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    color: wheat;
+    color: white;
 }
 #header{
     margin-left: 35%;
@@ -58,4 +58,8 @@ label{
     left: 5px;
     top: 5px;
     border-radius: 100px;
+}
+#loginOption{
+    padding: 10px 30px;
+    color: wheat;
 }
