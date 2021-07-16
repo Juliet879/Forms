@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+*{
+    margin-top: 0;
+    font-family: 'EB Garamond', serif;    
+
+}
+body{
+    background-image: url(/images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#header{
+    margin-left: 35%;
+    color: white;
+}
+#heading{
+    margin-left: 23%;
+    color: white;
+    padding-bottom: 10%;
+    font-size: 30px;
+
+}
+
+.signup{
+    box-shadow: 10px 10px 25px 20px rgb(175, 113, 113);
+    margin: auto;
+    margin-left: 35%;
+    margin-top: 4%;
+    border: 1px solid grey;
+    width: 350px;
+    height: 520px;
+    padding-left: 6%;
+    padding-top: 2%;
+    background-color: rgb(10, 10, 10);
+    position: relative;
+}
+input{
+    padding: 12px 40px;
+}
+label{
+    color: white;
+}
+
+#btn_signup{
+    margin: 20px 60px;
+    padding: 15px 30px;
+    border-radius: 5px;
+    background-color: rgb(148, 97, 97);
+}
+.above{
+    display: flex;
+}
+#logo{
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    border-radius: 100px;
+}
